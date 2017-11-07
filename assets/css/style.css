@@ -1,0 +1,79 @@
+* {	
+	box-sizing: border-box;;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Special Elite', cursive;
+}
+
+header {
+	background-color: #53CFF6;
+	color: white;
+	height: 62px;
+	margin-top: -10;
+	text-align: center;
+	width: 100%;
+}
+
+
+main {
+	background-image: url(../img/bici.jpg);
+	background-size: cover;
+	height: 756px;
+	width: 100%;
+
+}
+
+.reto {
+	background: white;
+	height: 290px;
+	margin: -20px 0 0 136px;
+	width: 350px;
+}
+
+.reto h1 {
+	margin: 0 0 0 29px;
+}
+.reto hr {
+	background-color: #D7D9DA;
+	height: 1px;
+	width: 320px;
+}
+
+.reto h4 {
+	color: blue;
+}
+
+#mesagge {
+	background: white;
+	height: 290px;
+	margin: -255px 0 0 628px;
+	width: 510px;
+}
+.container { 
+	color: gray;
+	height: 227px;
+	margin: -274px 0 0 639px;
+}
+textarea {
+	height: 175px;
+	margin-top: 18px;
+	margin-left: 21px;
+	width: 472px;
+}
+hr {
+	height: 4px;
+	background-color: #53CFF6;
+	width: 479px;
+
+}
+#btn {
+	background: #53CFF6;
+	border-radius: 1px;
+	color: white;
+	height: 30px;
+	width: 52px;
+}
+

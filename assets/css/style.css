@@ -8,6 +8,15 @@ body {
 	font-family: 'Special Elite', cursive;
 }
 
+body {
+	background-image: url(../img/pajarito-Twitter.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 756px;
+	width: 100%;
+}
+
 header {
 	background-color: #53CFF6;
 	color: white;
@@ -18,62 +27,49 @@ header {
 }
 
 
-main {
-	background-image: url(../img/bici.jpg);
-	background-size: cover;
-	height: 756px;
-	width: 100%;
-
-}
-
-.reto {
-	background: white;
-	height: 290px;
-	margin: -20px 0 0 136px;
-	width: 350px;
-}
-
-.reto h1 {
-	margin: 0 0 0 29px;
-}
-.reto hr {
-	background-color: #D7D9DA;
-	height: 1px;
-	width: 320px;
-}
-
-.reto h4 {
-	color: blue;
-}
-
 #mesagge {
-	background: white;
-	height: 290px;
-	margin: -255px 0 0 628px;
-	width: 510px;
+	background: #fff;
+	height: 15em;
+	margin: 2em 0 0 2em;
+	width: 25em;
 }
-.container { 
-	color: gray;
-	height: 227px;
-	margin: -274px 0 0 639px;
-}
-textarea {
-	height: 175px;
-	margin-top: 18px;
-	margin-left: 21px;
-	width: 472px;
-}
-hr {
-	height: 4px;
-	background-color: #53CFF6;
-	width: 479px;
 
+textarea {
+	height: 13em;
+	margin-top: 1em;
+	margin-left: 1em;
+	width: 28em;
 }
+
+
 #btn {
 	background: #53CFF6;
 	border-radius: 1px;
 	color: white;
-	height: 30px;
-	width: 52px;
+	margin-top: 1em;
+	margin-left: 1em;
+	height: 2em;
+	width: 4em;
 }
 
+#reto {
+	background: #fff;
+	height: 10em;
+	margin-left: 40em;
+	margin-top: -15em;
+	padding: 2em 2em 2em 2em;
+	width: 19em;
+}
+
+
+hr {
+	background-color: #53CFF6;
+	height: 1px;
+	width: auto;
+}
+
+.posteo {
+	background: red;
+	height: 4em;
+	width: 4em;
+}

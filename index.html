@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>twitter</title>
+	<!--tipografia-->
 	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -10,33 +11,24 @@
 	<header>
 		<h1>Twitter</h1>
 	</header>
-	<main>
-		<section>	
-			<div class="reto">
-				<br>
-				<br>
-				<br>
-				<h1>Reto de Código</h1>
-				<p>Hola, <br> soy front-end developer jr.</p>
-				<br>
-				<hr>
-				<br>
-				<h4>Código</h4>
-			</div>
-		
+	<main> <!--se dividio en dos secciones uno con los cuatros y dos con los mensajes-->
+		<section class="uno">
 			<div id="mesagge">
-				<div id="tweets"></div>
-				</div>
-				<div class="container">
-				<textarea class="txt" id="comment" placeholder="Añade un comentario...">
-				</textarea>
-				<!-- contenedor comentarios -->
+				<textarea id="comentario" cols="30" rows="10" placeholder="Añade un comentario"></textarea>
 				<hr>
-				<br>
 				<button id="btn">Tweet</button>
 			</div>
+			<div id="reto">
+				<h2>Reto de Código</h2>
+				<p>Hola, <br> soy front-end developer jr.</p>
+				<hr>
+				<h1>Código</h1>
+			</div>
 		</section>
-		
+		<section id="dos">
+			<!-- contenedor comentarios -->
+			<div id="cont"></div>
+		</section>
 	</main>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
